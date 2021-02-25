@@ -1,6 +1,7 @@
 package program;
 
 import clase.Giraffe;
+import clase.Zebra;
 import clase.Zoo;
 
 public class Main {
@@ -12,7 +13,12 @@ public class Main {
 		z.AddAnimal(giraffe);
 		z.AddAnimal(giraffe2);
 		
+		Zebra z1 = new Zebra("zebra 1");
+		Zebra z2 = new Zebra ("zebra 2");
+		z.AddAnimal(z1);
+		z.AddAnimal(z2);
 		z.feedAllAnimals();
+		
 	}
 
 }

@@ -17,6 +17,6 @@ public void setName(String name) {
 }
 
 public void feed(Animal a) {
-	System.out.println(name + " feeds the animal" + a.getName()  );
+	System.out.println(name + " feeds the animal " + a.getName()  );
 }
 }
