@@ -6,7 +6,7 @@ public class BrokerTranzactieLazy {
 	private int vechime;
 	private int nrTranzactiiEfectuate;
 	
-	private static BrokerTranzactieLazy broker=null;
+	private static  BrokerTranzactieLazy broker=null;
 	private BrokerTranzactieLazy(String name, int vechime, int nrTranzactiiEfectuate) {
 		super();
 		this.name = name;
@@ -35,9 +35,9 @@ public class BrokerTranzactieLazy {
 		return builder.toString();
 	}
 	
-	public static BrokerTranzactieLazy getInstance(String nume, int vechime, int nrTranzactiiEfectuate) {
+	public static synchronized BrokerTranzactieLazy getInstance(String nume, int vechime, int nrTranzEfectuate) {
 		if(broker==null)
-			broker=new BrokerTranzactieLazy(nume, vechime, nrTranzactiiEfectuate);
+			broker=new BrokerTranzactieLazy(nume, vechime, nrTranzEfectuate);
 		return broker;
 	}
 	
