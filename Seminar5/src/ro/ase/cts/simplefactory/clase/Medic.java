@@ -10,9 +10,10 @@ public class Medic extends PersonalSpital {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Medic []");
+		builder.append("Medic [nume=");
+		builder.append(nume);
+		builder.append("]");
 		return builder.toString();
 	}
-
 	
 }

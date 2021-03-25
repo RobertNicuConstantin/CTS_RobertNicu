@@ -1,11 +1,12 @@
-package ro.ase.cts.simplefactory.clase;
+package ro.ase.cts.factorymethod.clase;
 
 public class Asistent extends PersonalSpital{
 
-	public Asistent(String name) {
-		super(name);
+	public Asistent(String nume) {
+		super(nume);
 		// TODO Auto-generated constructor stub
 	}
+
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
@@ -14,4 +15,6 @@ public class Asistent extends PersonalSpital{
 		builder.append("]");
 		return builder.toString();
 	}
+	
+
 }
