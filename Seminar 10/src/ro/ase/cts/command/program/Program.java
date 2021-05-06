@@ -1,4 +1,4 @@
-package ro.ase.cts.program;
+package ro.ase.cts.command.program;
 
 import ro.ase.cts.command.clase.ComandaConstituire;
 import ro.ase.cts.command.clase.ComandaDepunere;
