@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Student {
-    private String nume;
+	private String nume;
     private List<Integer> note;
 
     public Student(String nume) {
