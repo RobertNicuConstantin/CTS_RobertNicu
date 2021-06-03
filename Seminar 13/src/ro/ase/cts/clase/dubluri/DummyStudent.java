@@ -5,13 +5,6 @@ import java.util.List;
 import ro.ase.cts.junit.clase.IStudent;
 
 public class DummyStudent implements IStudent {
-
-	// DUMMY MOCKUP 
-	//- deoarece nu trebuie sa modificam metodele de mai jos 
-	// (nu avem nevoie de ele)
-	
-	// deci e folosit doar cand nu se foloseste vreo metoda
-	// pentru obiectul (studentul) extern
 	
 	@Override
 	public String getNume() {

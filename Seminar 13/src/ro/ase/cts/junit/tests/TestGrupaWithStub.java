@@ -21,7 +21,6 @@ public class TestGrupaWithStub {
 		assertEquals(1, grupa.getPromovabilitate(), 0.01);
 	}
 	
-	// Stub= mockupul in care avem val hardcodate
-	// Dezavantaj: nu putem avea val diferite decat daca facem mai multe stuburi
+	
 
 }

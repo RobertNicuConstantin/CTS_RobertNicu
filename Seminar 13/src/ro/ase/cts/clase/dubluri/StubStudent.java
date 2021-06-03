@@ -6,8 +6,6 @@ import ro.ase.cts.junit.clase.IStudent;
 
 public class StubStudent implements IStudent{
 
-	// STUB MOCKUP
-	// Returnam valori hardcodate (7,7 si false)
 	
 	@Override
 	public String getNume() {
